@@ -1,0 +1,2 @@
+1.构建大字符串时优先使用StringBuilder或StringBuffer，避免使用String拼接。
+2.对于重复用到的字符串数据，可以使用String.intern()。在调用 intern 方法之后，会去常量池中查找是否有等于该字符串对象的引用，有就返回引用。
